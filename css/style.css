@@ -1,0 +1,106 @@
+body{
+    background-color: azure;
+    font-size: 14px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: blanchedalmond;
+    font-size: 20px;
+    text-decoration: steelblue;
+    padding: 1em;
+}
+
+
+#main-header{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+#main-header h1{
+    margin: 0;
+    font-size: 32px;
+}
+#main-header p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.content-article{
+    background-color: aqua;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.content-article h2{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.content-article p{
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+h1{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin: auto;
+}
+
+
+img{
+    max-width: 250px;
+    border: 5px solid #000000; padding: 3px; margin: 5px;
+}
+
+
+nav{
+    background-color: beige;
+    padding: 0.7em;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.top-menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.top-menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.top-menu a:hover, a:visited{
+    color: red;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+
+.h2spe{
+    background-color: blue;
+    color: aliceblue;
+}
