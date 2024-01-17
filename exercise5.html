@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Flex</title>
+    
+<style>
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    margin: 5px;
+}
+
+.smallBox{
+    flex: 200px;
+}
+
+.bigBox{
+    flex-grow:2;
+}
+
+footer, header{
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+}
+article{
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+}
+    
+</style>
+
+</head>
+<body>
+
+    
+    <header>
+        <h1>Flex Box Example</h1>
+    </header>
+    <main>
+    <aside class="smallBox">
+        <h3>side bar</h3>
+        <h3>side bar</h3>
+        <h3>side bar</h3>
+        <h3>side bar</h3>
+        <h3>side bar</h3>
+    </aside>
+
+    <section class="bigBox">
+    <article>
+        <h2>What is HTML?</h2>
+        <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, est? Sint corrupti quod hic soluta a itaque qui possimus, odit non consectetur, exercitationem rem eum officia. Facere, eligendi ut. Quia?</article>
+    </article>
+    <article>
+        <h2>HTML Elements</h2>
+        <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum ullam nulla, rerum voluptatibus alias dolorum? Dolorum voluptates dolore reprehenderit rerum mollitia sint nobis sit error quisquam. Provident autem quo exercitationem?</article>
+    </article>   
+    <article>   
+        <h2>Black Level Elements</h2>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus itaque nisi deleniti mollitia dolorem sequi ipsum repellat sed perferendis dolorum placeat modi animi culpa aliquam, necessitatibus rem quia iure.</article>
+    </article>
+</section>
+    </main>
+
+    <footer>
+        <p>Learning Flex &commat; 2024</p>
+    </footer>
+
+</body>
+</html>

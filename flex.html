@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Flex</title>
+<style>
+main, footer{
+    display: flex;
+    
+}
+article{
+    background-color: aqua;
+    margin: 5px;
+    
+}
+
+.big{
+    flex-grow: 1;
+    background-color: burlywood;
+}
+.small{
+    flex: 1;
+    background-color: aqua;
+}
+</style>
+
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <article class="big">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, est? Sint corrupti quod hic soluta a itaque qui possimus, odit non consectetur, exercitationem rem eum officia. Facere, eligendi ut. Quia?</article>
+        <article class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum ullam nulla, rerum voluptatibus alias dolorum? Dolorum voluptates dolore reprehenderit rerum mollitia sint nobis sit error quisquam. Provident autem quo exercitationem?</article>
+        <article class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus itaque nisi deleniti mollitia dolorem sequi ipsum repellat sed perferendis dolorum placeat modi animi culpa aliquam, necessitatibus rem quia iure.</article>
+    
+        
+
+    <table class="table table-hover">
+    <thead>
+        
+
+    <tr class="table-light">
+        <th scope="col">#</th>
+        <th scope="col">studentNum</th>
+        <th scope="col">fname</th>
+        <th scope="col">lname</th>
+        <th scope="col">City</th>
+    </tr>
+    </thead>
+
+    <tr class="table-success">
+        <th scope="row">1</th>
+        <td>23009</td>
+        <td>Lauri</td>
+        <td>Raatikainen</td>
+        <td>Hämeenlinna</td>
+    </tr>
+
+    <tr class="table-success">
+        <th scope="row">2</th>
+        <td>23006</td>
+        <td>Pekka</td>
+        <td>Korhonen</td>
+        <td>Helsinki</td>
+
+    </tr>
+
+    <tr class="table-success">
+        <th scope="row">3</th>
+        <td>23001</td>
+        <td>Juho</td>
+        <td>Kankaanpää</td>
+        <td>Riihimäki</td>
+
+    </tr>
+    
+    </table>
+
+
+    <h2>Example of a form</h2>
+
+<form method="post" action="process.php">
+Name: <input type="text" name="fName" required minlength="3" maxlength="20"> <br>
+Email ID: <input type="email" name="email"> <br>
+DOB: <input type="date" name="dob" required> <br>
+Message: <input type="text" name="msg"> <br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+
+
+    </main>
+
+    <footer>
+        <p class="big">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, sed magnam. Eaque repudiandae voluptates rem fuga id rerum perspiciatis asperiores doloremque ea quod. Assumenda, enim culpa sint veritatis obcaecati distinctio.</p>
+        <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus ipsum aspernatur et nemo eos maxime cumque aliquid non itaque delectus numquam, deserunt fuga, dolore ea autem velit dignissimos dolores labore.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
