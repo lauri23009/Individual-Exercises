@@ -1,0 +1,67 @@
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    margin: 5px;
+}
+
+.smallBox{
+    flex: 200px;
+
+}
+
+.bigBox{
+    flex-grow:2;
+}
+
+footer, header{
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+article{
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+a{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.margin a:hover{
+    color: red;
+    background-color: whitesmoke;
+}
+
+.text{
+    text-align: left;
+}
+
+.table{
+    table-layout: fixed;
+}
+
+#table-container {
+    background-color: purple;
+}
+
+
